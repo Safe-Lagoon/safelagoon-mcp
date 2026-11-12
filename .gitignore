@@ -1,0 +1,6 @@
+# Registry signing material must never be committed. Generate keys outside this
+# repository (or keep them in a vault) and do not leave key.pem or proof files here.
+key.pem
+*.pem
+mcp-registry-auth
+.mcpregistry_*
